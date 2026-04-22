@@ -75,7 +75,7 @@ cd PrimeTrade
 cd d:\Task_primetrade #(Location to your Folder)
 python -m streamlit run app.py
 ```
-- Opens in browser (typically http://localhost:8501)
+- Opens in browser (Deployed by me at (https://primetrade-l5hv45riynfuh8x25bct3w.streamlit.app/))
 - 7 interactive pages for exploring all analysis components
 - All visualizations are interactive and filterable
 - Can export filtered data as CSV
