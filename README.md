@@ -93,8 +93,8 @@ streamlit run dashboard.py
 
 **Option 2: Launch Interactive Dashboard**
 ```bash
-cd d:\Task_primetrade
-streamlit run dashboard.py
+cd d:\Task_primetrade #(Location to your Folder)
+python -m streamlit run dashboard.py
 ```
 - Opens in browser (typically http://localhost:8501)
 - 7 interactive pages for exploring all analysis components
@@ -113,7 +113,7 @@ streamlit run dashboard.py
 d:\Task_primetrade\
 ├── README.md                      # This file (project documentation)
 ├── analysis.ipynb                 # Main analysis notebook (28 cells, comprehensive)
-├── dashboard.py                   # Interactive Streamlit dashboard (BONUS)
+├── app.py                   # Interactive Streamlit dashboard (BONUS)
 ├── BONUS_FEATURES_GUIDE.md        # Detailed bonus features documentation
 ├── datasets/
 │   ├── fear_greed_index.csv       # Bitcoin sentiment index
@@ -237,7 +237,7 @@ d:\Task_primetrade\
   - **Struggling Trader:** 20 traders, -$300 avg PnL, 35% win rate, 12 trades/day (NEEDS IMPROVEMENT)
 
 ### Bonus: Interactive Streamlit Dashboard ✅
-- **File:** `dashboard.py` (~500 lines of code)
+- **File:** `app.py` (~500 lines of code)
 - **Purpose:** Real-time data exploration and visualization
 - **7 Interactive Pages:**
   1. **Overview:** Key metrics, distributions, performance summary
@@ -291,24 +291,6 @@ The notebook creates 10+ publication-quality charts:
 8. **Correlation Matrix** (Metric relationships)
 9. **Strategy Impact** (Expected outcomes visualization)
 10. **Distribution Analysis** (Histograms for key metrics)
-
----
-
-## 🎯 Evaluation Criteria ✅
-
-| Criterion | Status | Evidence |
-|-----------|--------|----------|
-| Data Cleaning | ✅ Complete | Quality report in Data Preparation |
-| Correctness of Merges | ✅ Complete | Alignment verified, merge counts documented |
-| Strength of Reasoning | ✅ Strong | Statistical tests + interpretation provided |
-| Quality of Insights | ✅ High | 8 insights with quantified impact |
-| Actionable Recommendations | ✅ Clear | 2 strategies with specific rules + expected outcomes |
-| Visualizations | ✅ 15+ Charts | Publication-ready quality across notebook + dashboard |
-| Clarity of Communication | ✅ Professional | Well-structured, annotated, executive summary |
-| Reproducibility | ✅ Clean Code | Step-by-step pipeline, all parameters explicit |
-| **BONUS: Clustering** | ✅ Complete | 4 archetypes with silhouette score 0.557 |
-| **BONUS: Predictions** | ✅ Complete | Volatility model with 45.4% CV accuracy |
-| **BONUS: Dashboard** | ✅ Complete | Interactive 7-page Streamlit interface |
 
 ---
 
@@ -379,49 +361,5 @@ The notebook creates 10+ publication-quality charts:
 
 ---
 
-## 📞 Support & Questions
 
-For questions about the analysis:
-- Review the notebook: Each section has detailed explanations
-- Check methodology section: Data processing logic documented
-- Verify findings: All claims backed by numerical evidence
-- Reproduce results: Run notebook end-to-end on your machine
 
----
-
-## ✨ Conclusion
-
-This comprehensive analysis demonstrates:
-- **Technical Excellence:** Clean code, rigorous statistics, reproducible pipeline, advanced ML models
-- **Business Insight:** Actionable strategies with quantified impact + predictive capabilities
-- **Data Science:** Clustering, classification, statistical testing, feature engineering
-- **Communication:** Clear presentation backed by evidence, interactive visualizations, documentation
-- **Problem-Solving:** Addressed all requirements + 3 bonus features (clustering, predictions, dashboard)
-- **Completeness:** 25 cells, 8+ graphics, 3 ML models, interactive web interface
-
-**Ready for Primetrade.ai submission and interview discussion.**
-
----
-
-## 📚 Additional Resources
-
-- **Bonus Features Details:** See `BONUS_FEATURES_GUIDE.md`
-- **Dashboard Guide:** Run `streamlit run dashboard.py` then explore 7 pages
-- **Notebook Comments:** Each cell has detailed explanations and assumptions
-- **Statistical Methods:** Documented in the "Methodology Highlights" section
-
----
-
-**Last Updated:** 22-04-2026  
-**Notebook Cells:** 25 total (18 code cells + 7 markup cells)
-  - Part A: 4 cells (Data preparation)
-  - Part B: 8 cells (Analysis)
-  - Part C: 3 cells (Strategies + Summary)
-  - Bonus: 3 cells (Clustering, Volatility Prediction, Dashboard)
-**Bonus Files:** dashboard.py, BONUS_FEATURES_GUIDE.md  
-**Execution Time:** ~3-4 minutes for full notebook + clustering  
-**Data Coverage:** 6+ months trading data across multiple sentiment conditions
-
----
-
-*This analysis is part of the Primetrade.ai Data Science Intern Round-0 Assignment.*
