@@ -43,7 +43,6 @@ datasets/
 ```bash
 # Clone repository or download files
 git clone https://github.com/Anike416/PrimeTrade.git
-cd PrimeTrade
 
 # Install dependencies (Jupyter + analysis packages)
 pip install pandas numpy matplotlib seaborn scikit-learn scipy jupyter
@@ -52,6 +51,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn scipy jupyter
 pip install streamlit
 
 # Navigate to project directory
+cd PrimeTrade
 ```
 ### Running the Analysis
 
