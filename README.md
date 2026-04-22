@@ -1,7 +1,4 @@
 # Trader Performance vs Market Sentiment Analysis
-## Primetrade.ai Data Science Intern Assignment - Round 0
-
-**Status:** ✅ COMPLETE | **Quality:** Interview-Ready
 
 ---
 
@@ -53,26 +50,11 @@ pip install pandas numpy matplotlib seaborn scikit-learn scipy jupyter
 # Install Streamlit (for interactive dashboard - OPTIONAL)
 pip install streamlit
 
-# Launch notebook
-jupyter notebook analysis.ipynb
 ```
-
-### Running the Dashboard (BONUS)
 
 ```bash
 # Navigate to project directory
 cd d:\Task_primetrade
-
-# Run Streamlit dashboard
-streamlit run dashboard.py
-```
-
-**Dashboard Features:**
-- 7 interactive pages for exploring analysis
-- Real-time filtering on trader data
-- Download capabilities for filtered data
-- Publication-quality visualizations
-- Responsive to window resizing
 
 ### Running the Analysis
 
@@ -94,7 +76,7 @@ streamlit run dashboard.py
 **Option 2: Launch Interactive Dashboard**
 ```bash
 cd d:\Task_primetrade #(Location to your Folder)
-python -m streamlit run dashboard.py
+python -m streamlit run app.py
 ```
 - Opens in browser (typically http://localhost:8501)
 - 7 interactive pages for exploring all analysis components
@@ -210,7 +192,7 @@ d:\Task_primetrade\
   - Fully responsive web interface
   - Data filtering and export capabilities
   - Real-time statistics updates
-  - Launch: `streamlit run dashboard.py`
+  - Launch: `streamlit run app.py`
 
 ### Bonus: Predictive Modeling ✅
 - **Model 1 - Profitability Prediction:** Random Forest Classifier
