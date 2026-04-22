@@ -55,7 +55,7 @@ pip install streamlit
 ```bash
 # Navigate to project directory
 cd d:\Task_primetrade
-
+```
 ### Running the Analysis
 
 1. **Open `analysis.ipynb` in Jupyter**
