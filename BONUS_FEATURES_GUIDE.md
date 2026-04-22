@@ -1,8 +1,4 @@
-# 🎁 Bonus Features Implementation Guide
-
-All three bonus features have been successfully implemented in your Primetrade analysis!
-
----
+# 🎁 Bonus Features 
 
 ## **1. ✅ Simple Predictive Model - PnL Volatility Prediction**
 
@@ -67,7 +63,7 @@ Sample 5: Predicted=Medium Volatility, Actual=High Volatility
 
 ## **3. ✅ Lightweight Dashboard (Streamlit) - Interactive Explorer**
 
-**Location:** `dashboard.py` (new file in project root)
+**Location:** `app.py` (new file in project root)
 
 **How to Run:**
 ```bash
@@ -78,7 +74,7 @@ cd d:\Task_primetrade
 pip install streamlit pandas matplotlib seaborn
 
 # Launch dashboard
-streamlit run dashboard.py
+streamlit run app.py
 ```
 
 **Dashboard Pages:**
@@ -135,7 +131,7 @@ streamlit run dashboard.py
 - **Cell 20:** PnL Volatility Prediction Model - **Execution Count: 62**
 
 ### **New Files Created:**
-- **`dashboard.py`:** Full Streamlit interactive dashboard (~500 lines)
+- **`app.py`:** Full Streamlit interactive dashboard (~500 lines)
 - **`BONUS_FEATURES_GUIDE.md`:** This guide (documentation)
 
 ### **Total Execution Status:** ✅ **25/25 cells executed successfully**
@@ -171,16 +167,3 @@ streamlit run dashboard.py
 | Archetype Separation | ✅ | Clear 4-cluster separation |
 | Dashboard Responsiveness | ✅ | <500ms load time |
 
----
-
-## **Next Steps**
-
-1. **Test the dashboard:** Run `streamlit run dashboard.py`
-2. **Verify archetype assignments:** Check trader clustering results
-3. **Validate predictions:** Compare model predictions to actual outcomes
-4. **Deploy to production:** Set up real-time monitoring
-5. **A/B test strategies:** Implement in trading system
-
----
-
-**All bonus features ready for evaluation! 🚀**
